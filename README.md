@@ -43,19 +43,3 @@ The application will be available at http://localhost:3000.
 Add Post: Click the Add Post button to open the modal form. Fill in the title and body of the post and submit it to add the post to the list.
 View Posts: All fetched posts from the external API will be displayed in a list below the header.
 Loading and Error Handling: If posts are still loading or an error occurs, appropriate messages will be displayed.
-
-Folder Structure
-
-src/
-├── components/
-│   ├── Post.js       # Main post component displaying posts
-│   ├── PostForm.js   # Form for adding new posts
-├── redux/
-│   ├── PostAction.js # Redux actions for fetching and adding posts
-│   ├── postReducer.js# Redux reducer for managing post state
-├── App.js            # Main app component that renders everything
-├── index.js          # Entry point for React application
-├── post.css          # Styling for the post components
-
-License
-
